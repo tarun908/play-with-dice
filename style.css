@@ -1,0 +1,248 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+.circle1{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 40%;
+    top:40%
+}
+.box2-circle1{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 2%;
+    top:40%
+}
+.box2-circle2{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 2%;
+    top:40%
+}
+.box3-circle1{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:2%
+}
+.box3-circle2{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:40%;
+    left:40%
+}
+.box3-circle3{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+.box4-circle1{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.box4-circle2{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 2%;
+    top:0%
+}
+.box4-circle3{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 2%;
+
+}
+.box4-circle4{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+
+}
+.box5-circle1{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.box5-circle2{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 2%;
+    top:0%
+}
+.box5-circle3{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 2%;
+
+}
+.box5-circle4{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+
+}
+.box5-circle5{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:40%;
+    left:40%
+}
+.box6-circle1{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.box6-circle2{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 2%;
+    top:0%
+}
+.box6-circle3{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 2%;
+
+}
+.box6-circle4{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+
+}
+.box6-circle5{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:40%;
+    left:2%
+}
+.box6-circle6{
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:40%;
+    right:2%
+}
+.hide{
+    display: none;
+}
+
+.outputBox{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    border: 3px solid black;
+}
+.leftbox{
+    text-align: center;
+    width:50%;
+    border-right: 3px solid black;
+}
+.rightbox{
+    width: 50%;
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    margin-left: 50%;
+    width: 100px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:darkgray;
+    color:black;
+    border: none;
+}
+.leftoutput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightoutput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.output{
+    font-size: xx-large;
+}
